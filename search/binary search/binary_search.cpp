@@ -18,4 +18,27 @@ int BinarySearch(int a[],int n,int key){
 
          return -1;
 
+int main(){
+
+   int n;
+   cin>>n;
+   int a[n];
+   for(int i=0;i<n;i++){
+    cin>>a[i];
+   }
+
+   cout<<"enter key"<<endl;
+   int key;
+   cin>>key;
+
+   sort(a,a+n);
+
+   int pos = BinarySearch(a,n,key);
+   if(pos == -1){
+    cout<<"key not found"<<endl;
+   }else{
+       cout<<"key found at index "<<pos<<endl;
+   }
+
+   return 0;
 }
