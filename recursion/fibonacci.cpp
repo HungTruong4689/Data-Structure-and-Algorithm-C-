@@ -8,6 +8,7 @@ int fib(int n){
     return 0;
    }
 
+    //base case n==1
    if(n==1){
     return 1;
    }
