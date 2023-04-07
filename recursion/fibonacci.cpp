@@ -17,7 +17,7 @@ int fib(int n){
    int smallOutput1 = fib(n-1);
    int smallOutput2 = fib(n-2);
 
-   /// calculation
+   /// calculation -- finally
    return smallOutput1 + smallOutput2;
 
 }
