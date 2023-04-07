@@ -3,6 +3,7 @@ using namespace std;
 
 int fib(int n){
    /// Base case
+   //when n =0
    if(n==0){
     return 0;
    }
