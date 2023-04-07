@@ -13,7 +13,7 @@ int fib(int n){
     return 1;
    }
 
-   /// Recursive case
+   /// Recursive case - setup two base value
    int smallOutput1 = fib(n-1);
    int smallOutput2 = fib(n-2);
 
