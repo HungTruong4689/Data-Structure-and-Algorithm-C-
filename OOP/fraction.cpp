@@ -13,4 +13,11 @@ class Fraction {
 			this -> numerator = numerator;
 			this -> denominator = denominator;
 		}
+        int getNumerator() const {
+			return numerator;
+		}
+
+		int getDenominator() const {
+			return denominator;
+		}
 };
