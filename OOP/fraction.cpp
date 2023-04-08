@@ -9,5 +9,8 @@ class Fraction {
         Fraction() {
 
 		}
-	
+        Fraction(int numerator, int denominator) {
+			this -> numerator = numerator;
+			this -> denominator = denominator;
+		}
 };
