@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-#include "Fraction.cpp"
+#include "fraction.cpp"
 
 int main() {
     Fraction f1(10,5);
