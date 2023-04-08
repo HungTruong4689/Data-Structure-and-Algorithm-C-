@@ -41,4 +41,15 @@ class Fraction {
 			this -> numerator = this -> numerator / gcd;
 			this -> denominator = this -> denominator / gcd;
 		}
+		void add(Fraction const &f2) {
+			int lcm = denominator * f2.denominator;
+			int x = lcm / denominator;
+			int y = lcm / f2.denominator;
+
+			int num = x * numerator + (y * f2.numerator);
+
+			numerator = num;
+			denominator = lcm;
+			simplify();
+		}
 };
