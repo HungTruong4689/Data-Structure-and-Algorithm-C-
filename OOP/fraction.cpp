@@ -27,4 +27,7 @@ class Fraction {
 		void setDenominator(int d) {
 			denominator = d;
 		}
+		void print() const {
+			cout << this -> numerator << " / " << denominator << endl;
+		}
 };
