@@ -5,6 +5,9 @@ class Fraction {
 
 		int numerator;
 		int denominator;
+    public :
+        Fraction() {
 
+		}
 	
 };
