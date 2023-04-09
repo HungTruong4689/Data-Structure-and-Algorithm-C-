@@ -13,5 +13,12 @@ int main(){
     }
      sort(v2.begin(),v2.end());
 
+     for(int i=0;i<100;i++){
+            cout<<"Capacity "<<v.capacity()<<endl;
+            cout<<"Size "<<v.size()<<endl;
+
+        v.push_back(i+1);
+    }
+
    return 0;
 }
