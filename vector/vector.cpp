@@ -29,6 +29,14 @@ int main(){
     v.push_back(30);
 
     v[1] = 100;
+    /// never use [] to insert elements
+    ///v[4] = 1002;
+    ///v[5] = 1234;
+
+    v.push_back(23);
+    v.push_back(234);
+
+    v.pop_back();
 
    return 0;
 }
