@@ -15,3 +15,9 @@ int power(int x,int n){
   return x*smallOutput;
 
 }
+
+int main(){
+
+     cout<<power(5,3);
+    return 0;
+}
