@@ -13,3 +13,15 @@ void print(int n){
    cout<<n<<endl;
     return;    /// optional
 }
+void print2(int n){
+   /// Base case
+   if(n==0){
+      return;    /// mandatory
+   }
+
+   cout<<n<<endl;
+
+   /// Recursive case
+   print2(n-1);     ///n-1.....2 1
+  /// return;    optional
+}
