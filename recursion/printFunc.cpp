@@ -25,3 +25,8 @@ void print2(int n){
    print2(n-1);     ///n-1.....2 1
   /// return;    optional
 }
+
+int main(){
+     print2(5);
+    return 0;
+}
