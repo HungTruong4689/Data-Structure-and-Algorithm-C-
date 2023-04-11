@@ -34,6 +34,7 @@ bool isSorted2(int a[],int n){
 }
 
 bool isSorted3(int a[],int n){
+    //check base
    if(n==0 || n==1){
        return true;
    }
