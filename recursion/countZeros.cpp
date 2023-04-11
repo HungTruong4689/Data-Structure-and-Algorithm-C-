@@ -19,3 +19,8 @@ int countZeroes(int n){
   }
 
 }
+
+int main(){
+    cout<<countZeroes(10320);
+    return 0;
+}
