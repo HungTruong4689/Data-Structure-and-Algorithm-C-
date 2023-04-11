@@ -22,6 +22,7 @@ bool isSorted2(int a[],int n){
     if(n==0 || n==1){
        return true;
    }
+   //using sort1 for sort2 
    bool isSmallerSorted = isSorted(a+1 , n-1);
    if(!isSmallerSorted){
     return false;
