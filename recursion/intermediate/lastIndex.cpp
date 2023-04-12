@@ -40,3 +40,9 @@ int lastIndex3(int a[],int n,int x, int i){
        return indexInRem;
     }
 }
+
+int main(){
+  int a[] = {5,5,6,5,6,7};
+  cout<<lastIndex3(a, 6, 10, 0)<<endl;
+  return 0;
+}
