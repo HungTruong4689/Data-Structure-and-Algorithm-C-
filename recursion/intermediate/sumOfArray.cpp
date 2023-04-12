@@ -20,4 +20,10 @@ int sumOfArray3(int a[], int n, int i){
     return 0;
    }
    return a[i] + sumOfArray3(a , n, i+1);
+
+   int main(){
+  int a[] = {1,2,3,4,5};
+  cout<<sumOfArray3(a, 5, 0)<<endl;;
+  return 0;
+}
 }
