@@ -24,3 +24,19 @@ int lastIndex2(int a[],int n,int x){
 
     return lastIndex2(a,n-1,x);
 }
+
+int lastIndex3(int a[],int n,int x, int i){
+    if(i==n){
+        return -1;
+    }
+    int indexInRem = lastIndex3(a,n,x,i+1);
+    if(indexInRem == -1){
+        if(a[i]==x){
+            return i;
+        }else{
+          return -1;
+        }
+    }else{
+       return indexInRem;
+    }
+}
