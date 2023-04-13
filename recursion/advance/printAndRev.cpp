@@ -17,3 +17,11 @@ void revPrint(char input[]){
    cout<<input[0];
 }
 
+int main(){
+  char input[] = "abc";
+  print(input);
+  cout<<endl;
+  revPrint(input);
+  return 0;
+}
+
