@@ -19,3 +19,13 @@ void count(int a[],int n,int x,int i, int &ans){
    }
    count(a,n,x,i+1,ans);
 }
+
+int main(){
+  int a[] = {5,5,6,5,6,7};
+  /// printAllPos(a,6,10,0);
+
+  int ans = 0;
+  count(a,6,10,0,ans);
+  cout<<ans<<endl;
+  return 0;
+}
