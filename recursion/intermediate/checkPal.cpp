@@ -11,3 +11,9 @@ bool checkPal(int a[],int s,int e){
       return false;
     }
 }
+
+int main(){
+  int a[] = {1,2,3,4,3,2,1};
+  cout<<checkPal(a,0,6);
+  return 0;
+}
