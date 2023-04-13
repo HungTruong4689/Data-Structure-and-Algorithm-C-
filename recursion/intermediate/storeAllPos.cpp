@@ -31,3 +31,24 @@ int saveAllPosUsingArray(int a[],int n,int x,int i, int out[],int j){
    }
    return 0 + saveAllPosUsingArray(a,n,x,i+1,out,j);
 }
+
+int main(){
+  int a[] = {5,5,6,5,6,7};
+  /// printAllPos(a,6,10,0);
+  vector<int> v;
+  saveAllPos(a,6,10,0,v);
+  for(int i=0;i<v.size();i++){
+    cout<<v[i]<<" ";
+  }
+  cout<<endl;
+
+  int output[10];
+  int count = saveAllPosUsingArray(a,6,10,0,output,0);
+  for(int i=0;i<count;i++){
+    cout<<output[i]<<" ";
+  }
+
+
+
+  return 0;
+}
