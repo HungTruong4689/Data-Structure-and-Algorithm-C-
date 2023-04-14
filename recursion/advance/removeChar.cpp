@@ -21,3 +21,17 @@ void removeA(char input[]){
       removeA(input);
    }
 }
+
+int main(){
+  char input[100];
+  cin>>input;
+  int l = length(input);
+  cout<<l<<endl;
+  cout<<input<<endl;
+
+  removeA(input);
+
+  cout<<length(input)<<endl;
+  cout<<input<<endl;
+  return 0;
+}
