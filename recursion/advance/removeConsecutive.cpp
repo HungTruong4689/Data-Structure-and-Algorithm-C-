@@ -22,3 +22,17 @@ void removeConsecutiveDuplicates(char input[]){
         removeConsecutiveDuplicates(input);
      }
 }
+
+int main(){
+  char input[100];
+  cin>>input;
+  int l = length(input);
+  cout<<l<<endl;
+  cout<<input<<endl;
+
+  removeConsecutiveDuplicates(input);
+
+  cout<<length(input)<<endl;
+  cout<<input<<endl;
+  return 0;
+}
