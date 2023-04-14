@@ -23,6 +23,7 @@ void removeConsecutiveDuplicates(char input[]){
      }
 }
 
+//check the main function
 int main(){
   char input[100];
   cin>>input;
