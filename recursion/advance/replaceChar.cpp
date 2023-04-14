@@ -18,3 +18,15 @@ void replaceChar(char input[]){
     replaceChar(input + 1);
 
 }
+
+int main(){
+  char input[100];
+  cin>>input;
+  int l = length(input);
+  cout<<l<<endl;
+  cout<<input<<endl;
+  replaceChar(input);
+  cout<<input<<endl;
+
+  return 0;
+}
