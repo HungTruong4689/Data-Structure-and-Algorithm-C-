@@ -17,3 +17,13 @@ int convertStringToInt(char str[], int n){
      int ans = smallAns*10 + lastDigit;
      return ans;
 }
+
+int main(){
+  char str[] = "12345";
+  int n = length(str);
+
+  int a = convertStringToInt(str,n);
+  cout<<a<<endl;
+
+  return 0;
+}
