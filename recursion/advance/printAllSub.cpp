@@ -9,3 +9,17 @@ void print_subs(string input, string output){
     print_subs(input.substr(1), output + input[0]);  /// include
     print_subs(input.substr(1), output);   /// exclude
 }
+
+void print_subs2(char input[], char output[], int i){
+    if(input[0] == '\0'){
+        output[i] = '\0';
+        cout<<output<<endl;
+        return;
+    }
+    /// excluding
+    print_subs2(input + 1, output, i);
+    /// including
+    output[i] = input[0];
+    print_subs2(input + 1, output, i+1);
+
+}
