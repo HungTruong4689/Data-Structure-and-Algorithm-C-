@@ -6,6 +6,7 @@ void printPermu(char str[], int i=0){
         cout<<str<<endl;
         return;
     }
+    //why to??
     for(int j=i;str[j]!='\0';j++){
         swap(str[i],str[j]);
         printPermu(str, i+1);
