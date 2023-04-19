@@ -12,3 +12,11 @@ void printPermu(char str[], int i=0){
         swap(str[i],str[j]);
     }
 }
+
+int main(){
+
+  char str[] = "ABC";
+  printPermu(str);
+
+  return 0;
+}
