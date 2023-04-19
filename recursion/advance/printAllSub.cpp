@@ -23,3 +23,21 @@ void print_subs2(char input[], char output[], int i){
     print_subs2(input + 1, output, i+1);
 
 }
+
+int main(){
+
+  char input[10];
+  cin>>input;
+  char output[100] ;
+
+  string in;
+  cin>>in;
+  string out = "";
+
+  print_subs(in, out);
+  cout<<endl;
+
+  print_subs2(input, output, 0);
+
+  return 0;
+}
